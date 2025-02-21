@@ -5,9 +5,9 @@ from logging.handlers import RotatingFileHandler
 settings = {
     '_id': 1,  # don't change this line only, if you do you're dying by my hand
     "SPOILER": True,  # bool write True or False
-    "FILE_AUTO_DELETE": 1,  # in seconds
+    "FILE_AUTO_DELETE": 60,  # in seconds
     "AUTO_DEL": True,  # bool write True or False
-    "STICKER_ID": "CAACAgUAAyEFAASAgUwqAAJh_mckw2STkeY1WMOHJGY4Hs9_1-2fAAIPFAACYLShVon-N6AFLnIiHgQ",
+    "STICKER_ID": "CAACAgUAAxkBAAIB3meeG4m-7zElzOx2KDpYgaalGpu2AAL5BgACathJVDHDY5nXgyRJHgQ",
     "stk_del_timer": 1, # in seconds
     "bot_admin": [183298628,932987382] #e.g. 1963929292,38739292827 differetiate admins with a comma
 }
@@ -16,21 +16,21 @@ HELP_MSG = """help msg
 """  # shown only to admins
 
 # Bot token @Botfather
-TG_BOT_TOKEN = '7643757891:AAFEm1tWpBovyMbzOz64E8Y6ebz5txhxgmk'
+TG_BOT_TOKEN = '6944565115:AAEA30OWWncddbFkF9FYqCykOOUb-loHyA8'
 # Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "26634100"))
+APP_ID = int(os.environ.get("APP_ID", "7713526"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "9ea49405d5a93e784114c469f5ce4bbd")
+API_HASH = os.environ.get("API_HASH", "6f87b351ddf6c8c56999f8ba5b19cc7c")
 
 # Your db channel Id
-DB_CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002139537668"))
+DB_CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001927336862"))
 
 # NAME OF OWNER
-OWNER = os.environ.get("OWNER", "VØAT")
+OWNER = os.environ.get("OWNER", "yours truely")
 
 # OWNER ID
-OWNER_ID = 6321064549
+OWNER_ID = 5071463525
 
 # SUDO: those who can edit admins in channel
 SUDO = []
@@ -41,7 +41,7 @@ if OWNER_ID not in SUDO:
 PORT = os.environ.get("PORT", "8108")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://piper384895:aXhu9isrjYpUQkGk@leechbot.7i9gbke.mongodb.net/?retryWrites=true&w=majority&appName=leechbot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://alphonsemetaln:RfEJA4rlD4MdfJaU@cluster0.6evqe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Clustre")
 
 # FSUBS configuration
