@@ -150,7 +150,7 @@ def force_sub(func):
             )
 
             await message.reply_photo(
-                photo='plugins/image/fsub.jpg',
+                photo='https://graph.org/file/d5452c5ce032492c9dc3a-b2e8bbbf0674a13a28.jpg',
                 caption=channels_message,
                 has_spoiler=SPOILER,
                 reply_markup=InlineKeyboardMarkup(buttons)
@@ -300,9 +300,9 @@ async def channel_post(client: Client, message: Message):
                 
                 # Determine the correct file path based on the image type
                 if img_type == "start":
-                    image_path = "plugins/image/start.jpg"
+                    image_path = "https://graph.org/file/d5452c5ce032492c9dc3a-b2e8bbbf0674a13a28.jpg"
                 elif img_type == "fsub":
-                    image_path = "plugins/image/fsub.jpg"
+                    image_path = "https://graph.org/file/d5452c5ce032492c9dc3a-b2e8bbbf0674a13a28.jpg"
                 
                 # Delete existing image if it exists
                 if os.path.exists(image_path):
