@@ -30,7 +30,7 @@ DB_CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001927336862"))
 OWNER = os.environ.get("OWNER", "yours truely")
 
 # OWNER ID
-OWNER_ID=[5071463525]
+OWNER_ID = int(os.environ.get("OWNER_ID", "5071463525"))
 
 # SUDO: those who can edit admins in channel
 SUDO = []
@@ -54,7 +54,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Start message
 START_MSG = os.environ.get("START_MESSAGE", "<blockquote><b>ʏᴏᴏ {mention} ✌🏻</b></blockquote> <blockquote>ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜ ᴛʜᴇ ʟɪɴᴋꜱ ᴘʀᴏᴠɪᴅᴇᴅ ɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ</blockquote>")
-ADMINS=[5071463525]
+ADMINS = []
 # Add other admin IDs here as needed, ensuring not to include OWNER_ID
 other_admin_ids = []  # Replace with actual admin IDs
 for admin_id in other_admin_ids:
