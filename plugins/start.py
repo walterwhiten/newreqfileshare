@@ -136,7 +136,7 @@ def force_sub(func):
                     if link:
                         buttons.append([InlineKeyboardButton(channel_name, url=link)])
                     else:
-                        buttons.append([InlineKeyboardButton("Error creating invite link", url="https://t.me/Manga_Yugen")])            
+                        buttons.append([InlineKeyboardButton("Error creating invite link", url="https://t.me/Avatar_Airbender_Last_Hindi_Dub")])            
 
             # Prepare "Try Again" button if applicable
             from_link = message.text.split(" ")
