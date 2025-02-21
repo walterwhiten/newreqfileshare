@@ -42,6 +42,7 @@ async def handle_join_request(client, join_request: ChatJoinRequest):
             f"Join our main channel @Yugen_Bots for more awesome bots."
         )
         await client.send_photo(
+            photo='https://graph.org/file/d5452c5ce032492c9dc3a-b2e8bbbf0674a13a28.jpg',
             has_spoiler=True,
             chat_id=user_id,
             caption=join_message,
