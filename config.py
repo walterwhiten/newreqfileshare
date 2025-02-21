@@ -33,7 +33,7 @@ OWNER = os.environ.get("OWNER", "yours truely")
 OWNER_ID = 5071463525
 
 # SUDO: those who can edit admins in channel
-SUDO = []
+SUDO = [5071463525]
 if OWNER_ID not in SUDO:
     SUDO.append(OWNER_ID)
 
@@ -46,7 +46,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Clustre")
 
 # FSUBS configuration
 FSUBS = [
-    {'_id': -1001593947578, "CHANNEL_NAME": "Manga Yugen"}
+    {'_id': -1001580437794, "CHANNEL_NAME": "Manga Yugen"}
 ]
 
 
@@ -54,7 +54,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Start message
 START_MSG = os.environ.get("START_MESSAGE", "<blockquote><b>ʏᴏᴏ {mention} ✌🏻</b></blockquote> <blockquote>ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜ ᴛʜᴇ ʟɪɴᴋꜱ ᴘʀᴏᴠɪᴅᴇᴅ ɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ</blockquote>")
-ADMINS = []
+ADMINS = [5071463525]
 # Add other admin IDs here as needed, ensuring not to include OWNER_ID
 other_admin_ids = []  # Replace with actual admin IDs
 for admin_id in other_admin_ids:
