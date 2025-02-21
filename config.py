@@ -33,7 +33,7 @@ OWNER = os.environ.get("OWNER", "yours truely")
 OWNER_ID=[5071463525]
 
 # SUDO: those who can edit admins in channel
-SUDO=[5071463525]
+SUDO = []
 if OWNER_ID not in SUDO:
     SUDO.append(OWNER_ID)
 
