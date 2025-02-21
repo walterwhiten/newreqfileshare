@@ -9,7 +9,7 @@ settings = {
     "AUTO_DEL": True,  # bool write True or False
     "STICKER_ID": "CAACAgUAAxkBAAIB3meeG4m-7zElzOx2KDpYgaalGpu2AAL5BgACathJVDHDY5nXgyRJHgQ",
     "stk_del_timer": 1, # in seconds
-    "bot_admin": [5071463525] #e.g. 1963929292,38739292827 differetiate admins with a comma
+    "bot_admin": [1853178421] #e.g. 1963929292,38739292827 differetiate admins with a comma
 }
 
 HELP_MSG = """help msg
